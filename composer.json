@@ -1,0 +1,40 @@
+{
+  "name": "bryanyang0528/lang-traditional-chinese-zh-tw",
+  "description": "Flarum 繁體中文語言套件（zh-tw）",
+  "keywords": [
+    "flarum",
+    "locale",
+    "Chinsese(zh-tw)",
+    "中文(zh-tw)"
+  ],
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "bryanyang0528",
+      "email": "bryanyang0528@gmail.com"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/bryanyang0528/lang-traditional-chinese-zh-tw",
+    "issues": "https://github.com/bryanyang0528/lang-traditional-chinese-zh-tw"
+  },
+  "require": {
+    "flarum/core": "^1.0"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "繁體中文（zh-tw）語言套件",
+        "icon": {
+          "image": "icon.svg",
+          "backgroundColor": "#fff",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center"
+        }
+    },
+    "flarum-locale": {
+      "code": "zh-tw",
+      "title": "繁體中文(zh-tw)"
+    }
+  }
+}
