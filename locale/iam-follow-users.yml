@@ -1,0 +1,109 @@
+# https://github.com/imorland/follow-users/blob/master/resources/locale/en.yml
+# Tue Jan 31 23:04:44 CST 2023
+
+ianm-follow-users:
+  admin:
+    permissions:
+      be_followed_label: 允許使用者追蹤
+    settings:
+      button-on-profile-label: Show the Follow button directly on the user profile header
+      stats-on-profile-label: Show follower and following counts on user profiles
+
+  forum:
+    followed: Followed
+    followers: 被追蹤人數
+    profile_link: => ianm-follow-users.lib.following_link
+
+    profile_page:
+      no_following: 似乎還沒追蹤任何人
+
+    user_controls:
+      follow_button: => ianm-follow-users.lib.follow
+      unfollow_button: => ianm-follow-users.lib.change_follow_type
+
+    settings:
+      notify_new_follower_label: 有人追蹤我
+      notify_new_unfollower_label: 有人退追
+      notify_new_discussion_label: 我追蹤的人有新發文
+      notify_new_post_label: 我追蹤的人有新推文
+      block_follow: 防止其他人追蹤我
+
+    index:
+      follow_tag_button: => ianm-follow-users.lib.follow
+      unfollow_tag_button: => ianm-follow-users.lib.change_follow_type
+
+    notifications:
+      new_discussion_text: "{nickname} 發文"
+      new_post_text: "{nickname} 推文"
+      new_follower_text: "{nickname} 追蹤我"
+      new_unfollower_text: "{nickname} 退追我"
+
+    badge:
+      label:
+        follow: 追蹤貼文
+        lurk: 隱身
+
+    filter:
+      following: 我追蹤的使用者
+
+    modals:
+      select_follow_level:
+        title: "Select follow level for {nickname}"
+        description: "Choose how you'd like to follow <em>{nickname}</em>."
+
+        follow_levels_heading: "Follow levels"
+        follow_select_label: "Follow type"
+
+        no_user_attr_provided_err: "Uh oh, something went wrong while opening this modal."
+        no_user_attr_provided_err_debug: "No `user` attribute was passed to the SelectFollowUserLevel modal when created. Modal cannot be rendered."
+
+        save_btn: "Save"
+        cancel_btn: "Cancel"
+
+  email:
+    new_discussion_by_user_subject: "[追蹤通知] {title}"
+    new_follower_subject: "[追蹤通知] 你有了新的追蹤者!"
+    new_post_subject: "[追蹤通知] 新的推文 {title}"
+    new_discussion_by_user_body: |
+      Hey {recipient_display_name},
+      {user_display_name} started a new discussion: {discussion_title}
+      To view the new discussion, check out the following link:
+      {discussion_url}
+      ---
+      {post_content}
+    new_follower_body: |
+      Hey {recipient_display_name},
+      {follower_display_name} started following you, so they'll be notified when you start a new discussion.
+      To view their profile, check out the following link:
+      {profile_url}
+    new_post_body: |
+      Hey {recipient_display_name},
+      {user_display_name} posted in a discussion: {discussion_title}
+      To view the new activity, check out the following link:
+      {post_url}
+      ---
+      {post_content}
+      ---
+      You won't receive any more notifications about this discussion until you're up-to-date.
+  lib:
+    following_link: 追蹤的使用者
+
+    follow: 追蹤
+    change_follow_type: 更改追蹤方式
+
+    follow_levels:
+      unfollow:
+        name: 退追
+
+        description: |
+          不要收到關於 <em>{nickname}</em>'s 通知.
+      follow:
+        name: 追蹤
+
+        description: |
+          當 <em>{nickname}</em> 貼文時收到通知.
+      lurk:
+        name: 超級追蹤
+
+        description: |
+          當 <em>{nickname}</em> 貼文或推文時都會收到通知.
