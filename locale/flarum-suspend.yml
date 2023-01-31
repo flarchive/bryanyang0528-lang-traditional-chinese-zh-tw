@@ -1,0 +1,20 @@
+flarum-suspend:
+    admin:
+        permissions:
+            suspend_users_label: 封鎖使用者
+    forum:
+        notifications:
+            user_suspended_text: '{username} 封鎖了你 {timeReadable}'
+            user_unsuspended_text: '{username} 封鎖了你'
+        suspend_user:
+            indefinitely_label: 無限期封鎖
+            limited_time_label: 有限期封鎖...
+            limited_time_days_text: ' 天'
+            not_suspended_label: 不封鎖
+            status_heading: 封鎖狀態
+            submit_button: 儲存更改
+            title: '{username} 已被封鎖'
+        user_badge:
+            suspended_tooltip: 已封鎖
+        user_controls:
+            suspend_button: 封鎖
