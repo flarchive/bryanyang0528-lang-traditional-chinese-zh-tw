@@ -1,0 +1,21 @@
+ianm-synopsis:
+  admin:
+    settings:
+      excerpt-length:
+        label: 摘要要顯示多少字元
+        help: 要顯示的字元長度？
+      rich-excerpts:
+        label: 使用 rich content 來顯示摘要
+        help: 當開啟時, 圖片, 內嵌以及其他非文字的元素會包含在摘要中。
+      excerpt-type:
+        label: 要顯示哪一則推文當作摘要？
+        help: 看要用原文還是最新的推文當作摘要
+      first-label: 原文
+      last-label: 最新的推文
+      tags-enabled: You have <code>flarum/tags</code> enabled. These settings will become default, unless per individual tags have their own setting.
+  forum:
+    user:
+      settings:
+        summaries-heading: 貼文摘要
+        show-summaries: 在討論列表中顯示貼文摘要（電腦/平板）
+        show-summaries-mobile: 在討論列表中顯示貼文摘要 (手機)
