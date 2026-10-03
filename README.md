@@ -2,13 +2,21 @@
 
 > **Read-only archive of released versions of bryanyang0528/lang-traditional-chinese-zh-tw.** Not for installation: use [Packagist](https://packagist.org/packages/bryanyang0528/lang-traditional-chinese-zh-tw) or the [upstream repository](https://github.com/bryanyang0528/lang-traditional-chinese-zh-tw).
 
-**0** versions archived · Latest: [`1.2.0`](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.2.0) · License: `MIT` · Flarum: `^1.0`
+**9** versions archived · Latest: [`1.2.0`](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.2.0) · License: `MIT` · Flarum: `^1.0`
 
 ## Archived Versions
 
 | Version | Released | Flarum | Source |
 |---|---|---|---|
-| — | — | — | — |
+| `1.0.0` | 2023-01-25 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.0.0) |
+| `1.0.1` | 2023-01-25 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.0.1) |
+| `1.0.2` | 2023-01-25 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.0.2) |
+| `1.0.3` | 2023-01-28 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.0.3) |
+| `1.1.0` | 2023-01-31 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.1.0) |
+| `1.1.1` | 2023-01-31 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.1.1) |
+| `1.1.2` | 2023-01-31 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.1.2) |
+| `1.1.3` | 2023-01-31 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.1.3) |
+| `1.2.0` | 2023-02-02 | `^1.0` | [Browse](https://github.com/flarchive/bryanyang0528-lang-traditional-chinese-zh-tw/tree/archive/v1.2.0) |
 
 Catalog entry: [packages/bryanyang0528-lang-traditional-chinese-zh-tw.json](https://github.com/flarchive/archive-index/blob/main/packages/bryanyang0528-lang-traditional-chinese-zh-tw.json)
 
